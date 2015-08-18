@@ -122,9 +122,9 @@ int main()
     {
     	double n;
     	cin >> n ;
-    	n = (n+1.0)/2.0 ;
+    	//n = (n+1.0)/2.0 ;
     	//cout << p ;
-    	double ans =fmod(16.0/3.0*(n*n*n) + 10.0*(n*n) + 26.0/3.0*(n) + 1.0,mod);
+    	//double ans =fmod(16.0/3.0*(n*n*n) + 10.0*(n*n) + 26.0/3.0*(n) + 1.0,mod);
     	cout << ans << "\n" ;
     }
 
