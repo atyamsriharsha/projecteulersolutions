@@ -3,6 +3,7 @@ import os
 
 list1=[0]*1000001
 list1[1]=0
+
 def memoize(f):
     """Cache the results of calls to f."""
     def func(*args):
